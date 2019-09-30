@@ -1,0 +1,161 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body {
+    background: cover;
+    background-image: url("https://i.pinimg.com/originals/0f/70/d6/0f70d6f8985b149d23f7784ee6163d5c.jpg");
+    background-size: 100% 100%;
+    min-height: 1000px;
+}
+
+.burodance {
+    bottom: 10px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+.burodance2 {
+    height: 200px;
+    float: right;
+    position: relative;
+}
+
+
+header {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    height: 80px;
+}
+
+#start {
+    display: block;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: none;
+    background-image: url(https://i5.walmartimages.com/asr/b8ecdea4-ad35-450f-80ca-a5f83746af52_1.04d31738c4ee8423e6a116657dd7e46e.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF);
+    background-size: 100%;
+    color: black;
+    font-size: 35px;
+    bottom: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#start:hover {
+	background-image: url(https://media1.tenor.com/images/0e75478449622178ef1f64c6abe5cbfd/tenor.gif?itemid=10796373);
+	color: red;
+}
+
+.answer-choices {
+    text-align: center;
+    background-color: white;
+    width: 25%;
+    height: 100px;
+    display: block;
+    border: 1px solid black;
+}
+
+.answer-choices:hover {
+	background: grey;
+	color: red;
+	box-shadow: inset 0 0 0 1px white;
+}
+
+.choices {
+    text-align: center;
+    font-size: 8px;
+}
+
+.results {
+    text-align: center;
+}
+
+#submitUserGuess {
+    width: 20%;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#submitUserGuess:hover {
+    background-color: black;
+    color: white;
+}
+
+#submitUserGuess:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.questionNumber {
+    color: white;
+    text-align: center;
+}
+
+.response {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.answerCorrect {
+    color: white;
+    text-align: center;
+}
+
+#nextQuestion {
+    width: 20%;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#nextQuestion:hover {
+    background-color: black;
+    color: white;
+}
+
+#nextQuestion:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+#quiz-results {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+#startOver {
+    width: 20%;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
